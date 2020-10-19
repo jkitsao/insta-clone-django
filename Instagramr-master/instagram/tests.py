@@ -5,7 +5,7 @@ from .models import Image,Like,Comment
 
 class Intagram_TestCases(TestCase):
     def setUp(self):
-        self.user1= User(id=1,username='kitsao',email='kitsao12@gmail.com',password='kkjjkkjj')
+        self.user1= User(id=15,username='kitsao',email='kitsao12@gmail.com',password='kkjjkkjj')
         self.user1.save()
         self.profile = Profile(user_id=1,bio='i love cheese',profile_pic='images/food.jpg')
         self.profile.save_profile()
