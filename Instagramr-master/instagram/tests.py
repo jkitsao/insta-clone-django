@@ -41,8 +41,4 @@ class Intagram_TestCases(TestCase):
         self.assertEqual(image.id,1)
 
 
-    def test_update_single_image(self):
-        self.my_image.save_image()
-        filtered_object =Image.update_image('food','Greener')
-        updated = Image.objects.get(image_name='Greener')
-        self.assertEqual(updated.image_name,'Greener')
+    
