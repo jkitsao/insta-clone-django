@@ -41,7 +41,7 @@ As a registerd user you can:
 
 * If not use this command:
 `pip freeze > requirements.txt`
-* i would advice you to use python version 3.6 +
+
 * Do not try to use django version above 1.11, it will result to errors due to compatibility
 * For this cause, i recommend python 3.7 but specify `python3.7.8` in your `runtime.txt` file when deploying to heroku
 
