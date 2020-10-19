@@ -24,7 +24,7 @@ As a registerd user you can:
 2. You will then have to unzip the zipped format of the repo.
 
 3. You will need to install all dependencies by running this command:
-* First make sure your requirements.txt file is like this:
+` pip3 install -r requirements.txt`
 
 `config==0.3.9`
 `dj-database-url==0.5.0`
